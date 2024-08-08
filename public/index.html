@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send MMS</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- CSS dosyasını ekleme -->
+</head>
+<body>
+    <div class="container">
+        <h1>Send MMS</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+905555555555" required>
+            <button type="submit">Gönder</button>
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="js/script.js"></script> <!-- JavaScript dosyasını ekleme -->
+</body>
+</html>
